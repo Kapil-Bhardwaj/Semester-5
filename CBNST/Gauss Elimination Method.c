@@ -9,18 +9,6 @@ ROLL NO: 2094030
 OBJECTIVE: WAP to find root of equation using Gauss Elemination Method.
 
 ALGORITHM:
-
-
-
-
-
-
-
-
-
-
-
-
 	
  // make it  upper triangular	
    for(i 0  n)
