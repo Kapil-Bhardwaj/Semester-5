@@ -1,3 +1,36 @@
+
+Practical No.6
+
+NAME: Kapil Kumar Bhardwaj
+COURSE: B.Tech 5th Sem
+BRANCH: CSE
+ROLL NO: 2094030
+
+OBJECTIVE: WAP to find root of equation using secant method.
+
+
+
+Algo:
+ do
+    {
+  
+        float fa = f(a);
+        float fb = f(b);
+        c = a -fa*(b-a)/(fb-fa);
+
+        a = b;
+        b = c;
+
+        iter++;
+
+    } while (fabs(f(c)) > allerr);
+
+    printf("The root of the equation is %f\n", c);
+
+
+
+
+Program :
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -37,6 +70,8 @@ int main()
 
     return 0;
 }
+
+OUTPUT: 
 /////////////////////////
 // Enter the initial guess a: 0
 // Enter the initial guess b: 9
