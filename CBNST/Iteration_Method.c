@@ -1,3 +1,35 @@
+
+Practical No.4
+
+NAME: Kapil Kumar Bhardwaj
+COURSE: B.Tech 5th Sem
+BRANCH: CSE
+ROLL NO: 2094030
+
+OBJECTIVE: WAP to find root of equation using iteration method.
+
+
+
+Algo:
+
+    do
+    {
+    
+        printf("%f\t%f\t%f\n", a, f(a), phi(a));
+        c=a;
+
+        a=phi(a);
+
+        iter++;
+      
+    } while ((fabs(f(c)) > allerr));
+
+    printf("The root of the equation is %f\n", c);
+
+
+
+
+Program : 
 #include <stdio.h>
 #include <math.h>
 #include<stdlib.h>
