@@ -1,3 +1,5 @@
+
+                                         PRACTICAL NO.11
 //Lagrange Interpolatiopn
 #include <stdio.h>
 
